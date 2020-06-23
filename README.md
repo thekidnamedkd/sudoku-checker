@@ -6,7 +6,7 @@
 
 ## Description
 
-_Long deiscription._
+_A game of soduku where a user clicks on an individual box and inputs a number 1 through 9. There can be no duplicates in the rows, columns and 3x3 grids. An error message will pop up if there is a duplicate or a number 1-9 is not entered correctly._
 
 ### Specs
 | Spec | Input | Output |
