@@ -1,8 +1,8 @@
-# _PROJECT NAME_
+# _Sudoku Checker_
 
-#### _SHORT DESCR_
+#### _This application will determine if a completed sudoku puzzle is "legal"._ _6/23/2020_
 
-#### By _**YOUR NAME HERE**_
+#### By _**Kevin Davis, Emma Hellman, Ben Russell**_
 
 ## Description
 
@@ -11,6 +11,13 @@ _Long deiscription._
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
+1. User clicks on box and inputs a number 1-9 into individual box 
+2. Each row contains all numbers 1 through 9 with no repeats Input: 1, 4, 5, 3, 6, 9, 7, 8, 2 
+3. Each column contains all numbers 1 through 9 with no repeats Input: 2, 7, 9, 4, 3, 2, 8, 1, 5, 6
+4. Each of the nine 3x3 grids contain all numbers 1 through 9 with no repeats. Input: 5, 4, 9, 1, 8, 7, 6, 2, 3
+5. User inputs a duplicate number in the 3 by 3 box. Input: 6, 6 Output: An error message pops up that warns the user not to duplicate numbers
+6. User inputs a number not 1-9. Input: User inputs 23 or L, Output: An error message pops up that warns the user to enter only numbers 1-9. 
+
 
 
 ## Setup/Installation Requirements
@@ -23,7 +30,8 @@ _Long deiscription._
 
 ## Known Bugs
 
-_ _
+_ _There are no known bugs
+
 ## Support and contact details
 
 _Contact me at...._
